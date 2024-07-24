@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ed9494;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+h1{
+    text-align: center;
+    color : #333;   
+}
+.todo-input{
+    display: flex;
+    margin-bottom: 20px;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.4); */
+
+
+}
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 3px;   
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.4); */
+
+
+}
+#todoList{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    padding: 5px;
+
+
+}
+/*feature -:
+--drag and drop
+--check repeat
+--checklist
+--delete to do button
+*/
